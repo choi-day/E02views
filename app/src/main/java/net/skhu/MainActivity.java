@@ -42,7 +42,11 @@ public class MainActivity extends AppCompatActivity {
             return true;
 
         }
-
+        else if (id == R.id.action_spinners) {
+        Intent intent = new Intent(this, SpinnersActivity.class);
+        startActivity(intent);
+        return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 }

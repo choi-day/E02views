@@ -12,8 +12,11 @@
         android:theme="@style/Theme.E02news"
         tools:targetApi="31">
         <activity
+            android:name=".SpinnersActivity"
+            android:label="@string/action_spinners" />
+        <activity
             android:name=".CheckboxesActivity"
-            android:label="@string/action_checkbox"  />
+            android:label="@string/action_checkbox" />
         <activity
             android:name=".ButtonActivity"
             android:label="@string/action_buttons" />
